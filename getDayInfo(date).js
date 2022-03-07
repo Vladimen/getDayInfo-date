@@ -1,5 +1,3 @@
-getDate('08.01.2022');
-
 const getDate = (dateString) => {
 const day = dateString.substring(0,2);
 const month = Number(dateString.substring(3,5)) - 1;
@@ -36,3 +34,5 @@ const localDayWeek = days[dayWeek];
 const localMonth = months[month];
 console.log(localDayWeek + ",", result + " неделя", localMonth, year + " года");
 }
+
+getDate('08.01.2022');
