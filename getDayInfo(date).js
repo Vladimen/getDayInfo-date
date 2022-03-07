@@ -1,6 +1,6 @@
 <script>
 
-getDate('09.12.2022');
+getDate('08.01.2022');
 
 const getDate = (dateString) => {
 const day = dateString.substring(0,2);
